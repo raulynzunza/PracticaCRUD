@@ -1,0 +1,59 @@
+#acciones{
+    resize: none;
+}
+
+.table-container{
+    display: grid;
+    grid-template-columns: repeat(7,10rem);
+    text-align: center;        
+}
+
+body{
+    background-color: rgb(189, 189, 189);
+    font-family:'Roboto', sans-serif;
+    text-align: center;
+}
+header{
+    text-align: center;
+}
+
+.formulario{
+    margin: 0 auto;
+    width: 12rem;    
+}
+.table__header{
+    background-color: rgb(37, 37, 37);
+    color: white;
+    padding: 20px;
+
+}
+.table-container{
+    justify-content: center;
+    margin-top: 20px;
+    align-items: center;
+}
+.inputs{
+    border-radius: 10px;
+    border: none;
+    height: 1.5rem;
+}
+.botones{
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+}
+
+.botones:hover{
+    cursor: pointer;
+    background-color: rgb(132, 132, 132);
+}
+.basura-actualizar{
+    text-decoration: none;
+    color: black;
+    transition: .2s;    
+}
+.basura-actualizar:hover{
+    transform: rotateY(360deg);
+    background-color: rgb(145, 144, 144);
+    border-radius: 30px;
+}
